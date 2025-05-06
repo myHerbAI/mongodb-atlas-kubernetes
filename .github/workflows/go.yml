@@ -1,15 +1,5 @@
 # This workflow will build a golang project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
-            - name: DesigniteJava Action
-  # You may pin to the exact commit or the version.
-  # uses: DesigniteTools/DJAction@bb1d157af32fc9a3a5271f722f9179060e206f6e
-  uses: DesigniteTools/DJAction@v2.0.0
-  with:
-    # Personal access token
-    PAT: # optional, default is No PAT provided
-    # Designite license key - optional
-    D_KEY: # optional, default is No key
-          
             - name: Setup Node.js environment
   uses: actions/setup-node@v3.9.1
   with:
